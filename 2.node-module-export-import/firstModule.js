@@ -9,7 +9,7 @@ function sub(a,b){
 
 function divide(a,b){
     if(b === 0){
-        throw new Error ('denominator value cannot be zero')
+        throw new Error ('denominator value cannot be zero!')
     }
 
     return a/b

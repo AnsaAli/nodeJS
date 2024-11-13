@@ -7,5 +7,5 @@ console.log('In wrapper-demo'); //print only after explorer finished execution
 console.log('__filename',__filename);
 console.log('__dirname',__dirname);
 
-wrapperFromExplorer.greet('Ansa');
+wrapperFromExplorer.greet('Ansa'); 
 

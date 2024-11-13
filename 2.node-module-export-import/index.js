@@ -12,6 +12,6 @@ console.log('Dividing');
 console.log('division:', firstModule.divide(10,20));//division: 0.5
 
 }catch(error){
- console.log(error.message); //denominator value cannot be zero
+ console.log('Error:',error.message); //denominator value cannot be zero.
  
 }
