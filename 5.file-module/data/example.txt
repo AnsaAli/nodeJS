@@ -1,0 +1,2 @@
+Sync way of crated file
+New line added using appendFileSync
