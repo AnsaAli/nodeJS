@@ -7,4 +7,11 @@ const add = (a,b)=>{
 }
 
 const res = add(10,20);
-console.log(res)
+console.log(res);
+
+//we can exports the function which we want to sahre with other
+const substract = (a,b)=>{
+    return a-b
+}
+//export substarct
+module.exports = substract;
