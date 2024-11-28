@@ -1,0 +1,22 @@
+
+we can export module in diffrent ways
+module.export = {add modules names here}
+module.exports.nameofthefunction = ()=>{}
+
+if export like module.export it will point out diffrent refernece
+
+similar to obj
+const obj1 = {name : 'Ansa'}
+const obj2 = obj1 //obj2 is refreing to the same obj1
+obj2.name = 'new anme'
+console.log(obj1.name) // will also shows new name because both obj1 and obj2 is refering to same address
+
+but if let obj2 = obj1;
+obj2 = {name : 'new name'}
+console.log(obj1.name) // get Ansa, because it they are refering to diffrent address  same as module.exports
+
+
+using mjs extention which id es module extension we can export uisng the key word export, also it has named export and default export
+
+
+
